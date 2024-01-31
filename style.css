@@ -1,28 +1,31 @@
 * {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F6F8F9;
 }
+
+/*COMMON*/
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER APP*/
 
 header {
     background-color: white;
     max-width: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding: 10px 20px;
 }
-
-.logo {
-    margin-left: 10px;
-}
-
 
 .img-logo {
-    display: inline-block;
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
+    vertical-align: middle;    
 }
 
 .title-logo {
@@ -30,90 +33,14 @@ header {
     vertical-align: middle;
 }
 
+/*MAIN APP*/
 
-.container {
-    width: 800px;
-    height: 600px;
-    background-color: rgb(104, 104, 104);
-    border-radius: 3px;
-    margin: auto;
-    margin-top: 20px;
+main {
+    margin-top: 30px;
 }
 
-.button-nav {
-    background-color: #ffff;
-    border-radius: 3px;
-    padding: 20px;
-    padding-left: 30px;
-
-}
-
-.button {
-    padding: 10px;
-    border-radius: 7px;
-    border: 2px solid black;
-}
-
-.button-task {
-    color: white;
-    background-color: #45ABEA;
-    border: none;    
-}
-
-.button-section {
-    color: #e5e5e5;
+.task-container {
     background-color: white;
-    border-color: #e7e7e7;
-    border-radius:9px;
-    padding: 9px;
-}
-
-
-
-
-.contenuti {
-    background-color: #ffff;
-    width: 800px;
-    height: 400px;
-    padding-top: 30px;
-    padding-left: 30px;
-}
-
-p {
-    background-color: #ffff;
-    margin-bottom: 10px;
-}
-
-.circle {
-    height: 20px;
-    width: 20px;
-    background-color: white;
-    border: 3px solid;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: text-bottom;
-    text-align: center;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-.circle-green{
-    color: #6BC4AE;
-    border: 3px solid #6BC4AE;
-
-}
-
-.row {
-    display: inline-block;
-    margin-left: 10px;
-    background-color: #ffff
-}
-
-.target {
-    text-align: center;
-    color: #ffff;
-    background-color: #45ABEA;
     border-radius: 10px;
-    margin-left: 5px;
-    padding: 10px;
 }
+
