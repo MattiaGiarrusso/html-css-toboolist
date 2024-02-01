@@ -44,3 +44,29 @@ main {
     border-radius: 10px;
 }
 
+.task-button {
+    padding: 10px 40px;
+}
+
+/*TASK BUTTON*/
+
+.button {
+    padding: 6px 10px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 6px;
+    }
+
+.button-blue {
+    background-color: #14aaf5;
+    border-color: #14aaf5;
+    color: white;
+}
+
+.button-grey {
+    background: white;
+    border-color: #c4cbd0;
+    color: #c4cbd0;
+}
+
+/*TASK BUTTON*/
