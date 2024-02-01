@@ -31,25 +31,29 @@ header {
 .title-logo {
     display: inline-block;
     vertical-align: middle;
+    color: #041931;
 }
 
 /*MAIN APP*/
 
 main {
     margin-top: 30px;
+    color: #434851;
 }
 
 .task-container {
+    padding: 10px 40px;
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0,2) 0px 8px 24px; ;
 }
 
-.task-button {
-    padding: 10px 40px;
-}
-
 /*TASK BUTTON*/
+
+.task-button {
+    padding: 10px 20px;
+    border-bottom: 2px solid #f6f8f9;
+}
 
 .button {
     padding: 6px 10px;
@@ -71,4 +75,80 @@ main {
     color: #c4cbd0;
 }
 
-/*TASK BUTTON*/
+/*TASK SECTION*/
+
+.task-section {
+    padding: 20px 20px;
+}
+
+.task-list {
+    margin-top: 14px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.task-row {
+    margin-top: 5px;
+}
+
+.circle {
+    display: inline-block;
+    border: 1px solid;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.circle-check {
+    border-color: #64C0A9;
+    color: #64C0A9;
+}
+
+.circle-cross {
+    border-color: red;
+    color: red;
+}
+
+.task-text {
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+/* TAG */
+
+.tag {
+    display: inline-block;    
+    padding: 5px 8px;
+    color: #ffffff;
+    border-radius: 16px;
+    font-size: 8px;
+}
+
+.tag-blue {
+    background-color: #14aaf5;
+}
+
+.tag-purple {
+    background-color: #9C72E4;
+}
+
+.tag-green {
+    background-color: #64C0A9;
+}
+
+.tag-orange {
+    background-color: #F29D33;
+}
+
+.tag-magenta {
+    background-color: #D863A1;
+}
+
+.tag-yellow {
+    background-color: #B0C926;
+}
